@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rushing"
+version = "0.1.0"
+description = "scraping rushing stats from nfl"
+authors = ["Dan Nelson <danelson@nwi.net>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.16.0"
+beautifulsoup4 = "^4.12.2"
+fake-useragent = "^1.4.0"
+pandas = "^2.1.4"
+duckdb = "^0.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
